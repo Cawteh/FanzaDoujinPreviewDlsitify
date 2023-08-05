@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "マウスホイールでプレビュー画像切替 for FANZA同人",
+    "version": "1.0",
+  
+    "description": "FANZA同人 商品ページのプレビュー画像をマウスホイールで切り替えられるようにします。",
+  
+    "content_scripts": [
+      {
+        "matches": ["https://www.dmm.co.jp/dc/doujin/*"],
+        "js": ["main.js"]
+      }
+    ]
+  
+  }
+  
